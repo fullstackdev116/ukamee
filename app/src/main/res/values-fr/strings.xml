@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">YAKKO</string>
+    <string name="app_help">
+        <b>1. What is UKAMEE?</b>\n
+        <b>UKAMEE</b> is a people health and mental strength monitoring Survey BOT based on AI (Artificial Intelligence) technology. It aims at addressing remote health and mental goodness management by Governments, Administrative Authorities, International NGOs and Corporates during crisis like the one occurring now with COVID-19. It also aims at servicing Health professional as Health surveillance Survey BOT for their patients to be able to take appropriate actions on time.
+        \n\n
+        <b>2. How Does UKAMEE work?</b>\n
+        Once the mobile app downloaded and installed, <b>UKAMEE</b> works with an opt-in/opt-out people health and mental strength monitoring system. It means people are prompted by receiving an In-App Message asking them to say YES or NO if they want to join the monitoring program and want to be monitored during a specific Crisis or a Special Healthcare or Social Goodness Program designed by a Government, an Administrative Authority, an International NGO or a Corporation. Once Monitored person has Opt-in, he/she will receive at a scheduled daily, weekly or monthly time, a LET’S start IN-APP Message containing instructions for the monitoring dialog start. If the LET’S start IN-APP Message receives a postponement response, a new time is chosen by the Monitored person and the backend system registers it for further push at the set time. At the end of the dialog, a summary can be sent to the Monitored person as IN-APP Message or via email provided by the Monitored person during the first day Opt-in. If project owner or manager did not choose such ending option, only a thanks for participation message is sent with a reminder wording for the further actions. <b>UKAMEE</b> dialogs are managed programmatically by a powerful web backend system that displays useful information to decision makers concerning the receiver. Decision makers are people behind the scene who run the project as project owner and manager. According to the set metrics and analytics, they take appropriate field actions and interact with receivers real-time or after the end of each dialog.
+        \n\n
+    </string>
+    <string name="key0">Key0</string>
+    <string name="key1">Key1</string>
+    <string name="key2">Key2</string>
+
+    <string name="health">Health</string>
+    <string name="mental">Mental Strength</string>
+    <string name="please_wait">Veuillez patienter…</string>
+    <string name="sms_verification">Vérification SMS</string>
+    <string name="warning">Avertissement</string>
+    <string name="please_input_your_mobile_number">Veuillez saisir votre numéro de mobile</string>
+    <string name="please_fill_in_blank_field">Veuillez remplir les champs vides</string>
+    <string name="are_you_sure_to_quit_the_app">Êtes-vous sûr de quitter l`application?</string>
+    <string name="are_you_sure_to_logout">Êtes-vous sûr de vous déconnecter?</string>
+
+    <string name="join_message">Do you want to join a People health and mental Strength Monitoring Program during a Crisis, Pandemic or a specific monitoring program?</string>
+    <string name="join_why"><b>YAKKO</b> is a people health and mental strength monitoring Survey BOT based on AI (Artificial Intelligence) technology. It aims at addressing remote health and mental goodness management by Governments, Administrative Authorities, International NGOs and Corporates during crisis like the one occurring now with COVID-19. It also aims at servicing Health professional as Health surveillance Survey BOT for their patients to be able to take appropriate actions on time.</string>
+    <string name="yakko_ai_des"><b>YAKKO</b> Bot contains thousands of health and mental strength questionnaires.\nPlease choose your interesting field</string>
+    <string name="gallery">Galerie</string>
+    <string name="camera">Caméra</string>
+    <string name="select_image_from">Sélectionner l`image à partir de</string>
+    <string name="taking_picture_failed">la prise de photo a échoué</string>
+    <string name="cropping_image_was_cancelled_by_the_user">le recadrage de l`image a été annulé par l`utilisateur</string>
+    <string name="cropping_image_failed">le recadrage de l`image a échoué</string>
+    <string name="enable_permissions">Veuillez activer les autorisations pour utiliser l`application.</string>
+    <string name="no_flash">Cet appareil ne prend pas en charge le flash</string>
+    <string name="touch_to_focus">Touchez l`écran pour faire la mise au point</string>
+    <string name="crop_fail">Échec du recadrage</string>
+    <string name="user_updated_successfully">Les informations de l`utilisateur ont été mises à jour avec succès.</string>
+
+    <string name="free_description">- 10 times to use Bot\n- Support contact disabled</string>
+    <string name="plus_description">- 1 month to use Bot\n- Support contact enabled</string>
+    <string name="pro_description">- 1 month to use Bot\n- Support contact enabled\n- Chat with any support admins</string>
+
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:id="@+id/ly_cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="14dp"
+            android:layout_toRightOf="@+id/img_photo"
+            android:layout_marginLeft="10dp"
+            android:visibility="visible" />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_photo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_avatar_white" />
+
+        <RelativeLayout
+            android:id="@+id/ly_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="35dp"
+            android:layout_toRightOf="@+id/img_photo"
+            android:background="@drawable/bubble_left"
+            android:paddingLeft="15dp"
+            android:paddingRight="5dp">
+
+            <com.codesgood.views.JustifiedTextView
+                android:id="@+id/txt_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="sample text"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/img_pic"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/default_pic"
+                android:visibility="gone" />
+
+            <me.jagar.chatvoiceplayerlibrary.VoicePlayerView
+                android:id="@+id/voicePlayerView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:enableVisualizer="false"
+                app:playPauseBackgroundColor="#ff7700"
+                app:playPauseCornerRadius="100"
+                app:playProgressbarColor="#ff7700"
+                app:progressTimeColor="#000"
+                app:seekBarProgressColor="#000"
+                app:seekBarThumbColor="#FFC107"
+                app:shareCornerRadius="100"
+                app:showShareButton="false"
+                app:showTiming="true"
+                app:timingBackgroundColor="#6AFF7700"
+                app:viewBackground="#C6C4CF"
+                app:viewCornerRadius="100"
+                app:visualizationNotPlayedColor="#727171"
+                app:visualizationPlayedColor="#ff7700" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ly_message"
+            android:layout_marginLeft="50dp"
+            >
+            <TextView
+                android:id="@+id/txt_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10:20"
+                android:textColor="@color/white"
+                />
+            <TextView
+                android:id="@+id/txt_seen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delivered"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textStyle="italic"
+                android:visibility="invisible"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

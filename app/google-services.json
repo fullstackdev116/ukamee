@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1093493084860",
+    "project_id": "yakko-a0d4c",
+    "storage_bucket": "yakko-a0d4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093493084860:android:167c962cad2b2a8060b6b9",
+        "android_client_info": {
+          "package_name": "com.ediattah.yakko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093493084860-albh2q0p7u28ft24e4bno7b56kqsvkvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG5ekNpJ2BynQYccZyaM9kmfNHPMuHA5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093493084860-albh2q0p7u28ft24e4bno7b56kqsvkvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
